@@ -1,0 +1,252 @@
+/* HTML Elements */
+
+body {
+  color: #52454C;
+}
+
+h1, h2, h5 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Sections */
+
+.purple-section {
+  background: -webkit-linear-gradient(top, rgba(189, 235, 245,.9), rgba(189, 235, 245,0.4));
+  padding: 3% 10%;
+}
+
+.white-section {
+  background: -webkit-linear-gradient(bottom, rgba(189, 235, 245,.9), rgba(189, 235, 245,0.4));
+  padding: 3% 20%;
+}
+
+.blog-section {
+  color: #52454C;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.15rem;
+  padding: 10% 20%;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 0;
+  position: relative;
+  text-align: center;
+}
+
+/* Title */
+
+.navbar {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 999;
+}
+
+.nav-link {
+  color: #6B5B64;
+}
+
+.nav-link:hover {
+  color: #52454C;
+}
+
+.profile-image {
+  border-radius: 50%;
+  /* padding-bottom: 3%; */
+  margin-bottom: 50px;
+  width: 50%;
+}
+
+.title-container {
+  position: relative;
+  width: 100%; /* Adjust based on your layout */
+  height: 400px; /* Fixed height, adjust as necessary */
+}
+
+.title-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  text-align: center;
+  z-index: 2; /* Ensure it's above the image */
+}
+
+.tagline {
+  /* These elements inherit positioning context from .overlay-text */
+  font-family: "Handlee", cursive;
+  font-weight: 800;
+  font-style: normal;
+  z-index: 2; /* Ensure text is above the image */
+}
+
+.title-text {
+  /* These elements inherit positioning context from .overlay-text */
+  font-family: "Handlee", cursive;
+  font-weight: 800;
+  font-style: normal;
+  padding-bottom: 90px;
+  z-index: 2; /* Ensure text is above the image */
+}
+
+        /* /* Align nav items to the right        */
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/* About Me */
+
+.about-me {
+  font-family: "Handlee", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.profile-image {
+  border-radius: 50%;
+  padding-bottom: 3%;
+}
+
+.profile-text {
+  font-size: 1.15rem;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Services */
+
+.column {
+  flex: 30%;
+  padding: 10px;
+}
+
+.column-img {
+  height: auto;
+  max-width: 100%;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+}
+
+.services-text {
+  display: inline-block;
+}
+
+/* Modal */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto; /* 10% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.responsive-iframe-container iframe {
+  width: 100%;
+  height: 1000px;
+}
+
+/* Blog */
+
+.blog-topic {
+  padding-bottom: 5%;
+}
+
+.topic {
+  color: #52454C;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.15rem;
+  margin-right: 0px;
+
+}
+
+.topic:hover {
+  color: #52454C;
+}
+
+/* Contact */
+
+/* Footer */
+#footer {
+  background: -webkit-linear-gradient(bottom, rgba(189, 235, 245,.9), rgba(189, 235, 245,0.4));
+  padding: 3% 20% 0 20%;
+}
+
+.btn {
+  color: #6B5B64;
+}
+
+.btn:hover {
+  color: #52454C;
+}
+
+.p-footer{
+  font-size: small;
+  margin: 3% 0 0 0;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
