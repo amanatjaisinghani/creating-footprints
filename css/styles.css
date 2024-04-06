@@ -87,9 +87,10 @@ h1, h2, h5 {
   flex-direction: column;
   justify-content: center; /* Center vertically */
   align-items: center; /* Center horizontally */
+  padding-top: 300px;
   text-align: center;
   z-index: 2; /* Ensure it's above the image */
-}
+  }
 
 .tagline {
   /* These elements inherit positioning context from .overlay-text */
@@ -119,6 +120,7 @@ h1, h2, h5 {
   font-family: "Handlee", cursive;
   font-weight: 800;
   font-style: normal;
+  padding-top: 400px;
 }
 
 .profile-image {
