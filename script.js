@@ -15,6 +15,18 @@ window.onclick = function(event) {
   }
 }
 
+window.onscroll = function() {scrollFunction()};
+
+var element = document.getElementById("the-nav");
+function scrollFunction() {
+  if ((document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) && window.innerWidth > 768) {
+    element.classList.add("navblack");
+  } else {
+    element.classList.remove("navblack");
+  }
+}
+  
+
 var modal = document.getElementById("formModal");
 
 // Get the <h1> element that opens the modal
@@ -44,5 +56,4 @@ window.onclick = function(event) {
       closeForm();
     }
   }
-
   

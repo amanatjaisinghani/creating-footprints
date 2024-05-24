@@ -1,4 +1,7 @@
 /* HTML Elements */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   color: #52454C;
@@ -50,12 +53,28 @@ h1, h2, h5 {
   z-index: 999;
 }
 
+.navbar-dark .navbar-toggler {
+  background-color: #52454C;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
 .nav-link {
-  color: #6B5B64;
+  color: #FFF;
+  transition: all ease .3s;
 }
 
 .nav-link:hover {
   color: #52454C;
+}
+
+#the-nav.navblack .nav-link, #the-nav.navblog .nav-link {
+  color: #52454C;
+}
+
+#the-nav.navblack .nav-link:hover, #the-nav.navblog .nav-link:hover {
+  color:  #888;
 }
 
 .profile-image {
@@ -137,6 +156,10 @@ h1, h2, h5 {
 }
 
 /* Services */
+
+.card-deck .card {
+  justify-content: space-between;
+}
 
 .column {
   flex: 30%;
@@ -239,8 +262,34 @@ h1, h2, h5 {
   font-size: small;
   margin: 3% 0 0 0;
   text-align: center;
+  padding-bottom: 30px;
 }
 
+@media screen and (max-width:768px) {
+  .title-container {
+    overflow: hidden;
+  }
+  .title-image {
+    max-width: 200%;
+    width:200%;
+    position: relative;
+    left:-50%;
+  }
+  .nav {
+    margin-top: 70px;
+    display: block;
+  }
+  .navbar {
+    width: 100%;
+  }
+  .nav-link {
+    background-color:#52454C;
+    text-align: center;
+  }
+  #the-nav.navblog .nav-link {
+    color: #FFF;
+  }
+}
 
 
 
