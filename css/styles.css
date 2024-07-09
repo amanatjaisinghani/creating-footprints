@@ -244,6 +244,13 @@ h1, h2, h5 {
 
 /* Contact */
 
+/* Carousel */
+
+.carousel-button {
+  color: #533E85;
+}
+
+
 /* Footer */
 #footer {
   background: -webkit-linear-gradient(bottom, rgba(189, 235, 245,.9), rgba(189, 235, 245,0.4));
